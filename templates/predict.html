@@ -1,0 +1,68 @@
+<html>
+    <head>
+          
+  <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename='/css/styles.css') }}">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src=  "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">   </script>  
+
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">SENTIMENT ANALYSIS OF COVID-19 LOCKDOWN RESPONSE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+      
+            <li class="nav-item active">
+              <a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
+            </li>
+      
+            <li class="nav-item">
+              <a class="nav-link" href="/">PREDICT</a>
+            </li>
+      
+            <li class="nav-item">
+              <a class="nav-link" href="/">DASHBOARD</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/">ARTICLES</a>
+            </li>
+            
+      </ul>
+          
+        </div>
+      </nav>
+      
+
+        <br><br>
+
+        <div class="card text-center">
+          <div class="card-header">
+            Results
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Prediction</h5>
+            <p class="card-text">Predicted on the basis of what maximum population of India responded on lockdown extension.</p>
+            {% for content in output %}
+            <a href="#" class="btn btn-primary">{{ content }}</a>
+            {% endfor %}
+          </div>
+          <div class="card-footer text-muted">
+            
+          </div>
+        </div>
+        
+        </body>
+    </html>
+
+    
+              
+                
