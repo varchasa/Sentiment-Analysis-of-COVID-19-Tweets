@@ -1,0 +1,32 @@
+.head
+{
+    color:blue;
+    /*background-color: rgb(100,149,237);*/
+    font-size: 60px;
+    border : 3px solid black;
+}
+.button
+{
+	background-color:palegoldenrod;
+	padding:15px 32px;
+	text-align: center;
+	display:inline-block;
+	font-size:16px;
+}
+.sentiment
+{
+    font-family: cursive;
+}
+.open
+{
+    background-color: darkcyan;
+    padding:10px 30px;
+    text-align: center;
+	display:inline-block;
+  	font-size:16px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.handwriting
+{
+    font-family: cursive;
+}
