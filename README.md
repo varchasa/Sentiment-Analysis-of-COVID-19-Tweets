@@ -1,6 +1,6 @@
 # IBM_Hackathon_smartInternz
-Video link - https://youtu.be/KzyQ3ps8m6s
-# Submission name
+
+# Sentiment analysis of COVID-19 tweets - visualization dashboard
      
 A basic GitHub repository example for Call for Code submissions and those projects that join the Code and Response initiative.
 ## Contents
@@ -76,15 +76,16 @@ Thanks for looking at Code-and-Response!
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Live demo
-You can find a running system to test at callforcode.mybluemix.net
+You can find a running system to test at https://youtu.be/KzyQ3ps8m6s
 
 ## Built with
 - Flask_mysqldb – The MySQL database used. 
 - Flask and Dash- The web framework used
--	Twitter - Used to collect hashtags. 
+- Twitter - Used to collect hashtags. 
 
 ## Versioning
 We used python version 3.6 
+
 ## Authors
 - Varchasa Aggarwal 
 
